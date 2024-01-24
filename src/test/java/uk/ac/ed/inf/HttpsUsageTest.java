@@ -13,7 +13,7 @@ public class HttpsUsageTest {
 
     @Test
     public void testHttpsUsageAndCertificateValidity() {
-        String restServiceUrl = "https://ilp-rest.azurewebsites.net"; // Replace with the actual REST service URL
+        String restServiceUrl = "https://ilp-rest.azurewebsites.net"; 
 
         try {
             URL url = new URL(restServiceUrl);
